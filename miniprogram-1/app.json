@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/test2/test2"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "LuluMango",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {"pagePath": "pages/index/index", "text": "首页"},
+      {"pagePath": "pages/test/test", "text": "测试"},
+      {"pagePath": "pages/test2/test2", "text": "测试2"}
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  }
+}

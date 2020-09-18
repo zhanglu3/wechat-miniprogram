@@ -1,0 +1,6 @@
+.idea
+*.iws
+*.iml
+*.ipr
+miniprogram_npm/
+node_modules/

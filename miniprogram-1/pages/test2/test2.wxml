@@ -1,0 +1,9 @@
+<!--pages/test2/test2.wxml-->
+<view class="chart-panel">
+    <ec-canvas id="mychart" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
+<wxml-to-canvas class="widget" width="414" height="1000"></wxml-to-canvas>
+<button bindtap="renderToCanvas">渲染到canvas</button>
+<button bindtap="extraImage">导出图片</button>
+
+<image src="{{src}}" style="width: {{width}}px; height: {{height}}px"></image>

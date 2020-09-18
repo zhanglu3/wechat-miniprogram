@@ -1,0 +1,8 @@
+/* pages/test/test.wxss */
+.pg_test {
+  padding: 20rpx;
+}
+
+button {
+  margin: 20rpx;
+}
